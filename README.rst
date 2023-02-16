@@ -41,9 +41,9 @@ Monte Carlo Simulator for TradingView CSV files
 Quick Start
 -----------
 
-Let's run a monte carlo simulation on the returns of `SPY <https://finance.yahoo.com/quote/SPY>`_ (S&P 500 Spider ETF).
+Let's run a monte carlo simulation on the data from a TV strategy.
 
-First, let's download SPY's data and calculate the daily returns.
+First, let's download TV data and calculate the daily returns.
 
 .. code:: python
 
