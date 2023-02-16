@@ -32,7 +32,7 @@ Monte Carlo Simulator for TradingView CSV files
 \
 
 **pandas-montecarlo** is a lightweight Python library for running simple
-`Monte Carlo Simulations <https://en.wikipedia.org/wiki/Monte_Carlo_method>`_ on Pandas Series data.
+`Monte Carlo Simulations <https://en.wikipedia.org/wiki/Monte_Carlo_method>`_ on CSV data.
 
 `Changelog » <./CHANGELOG.rst>`__
 
@@ -49,7 +49,7 @@ First, let's download SPY's data and calculate the daily returns.
 
     from pandas_datareader import data
 
-    df = data.get_data_yahoo("SPY")
+    df =  pd.read_csv(r'tradingview.csv')
     df['return'] = df['Adj Close'].pct_change().fillna(0)
 
 Next, we'll import ``pandas_montecarlo`` and run monte carlo simulation
