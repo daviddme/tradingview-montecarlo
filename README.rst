@@ -1,4 +1,4 @@
-Monte Carlo Simulator for Pandas Series
+Monte Carlo Simulator for TradingView CSV files
 =======================================
 
 .. image:: https://img.shields.io/badge/python-3.4+-blue.svg?style=flat
